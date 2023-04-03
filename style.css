@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swap");
+body {
+  background-color: #1B2430;
+  font-family: "Lexend", sans-serif;
+}
+
+.todo-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100px;
+  height: 250px;
+  background-color: #1B2430;
+}
+.todo-main .text-mix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  height: 200px;
+  background-color: #6B728E;
+  border: 1px solid #6B728E;
+  border-radius: 15px;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.todo-main .text-mix .text-section {
+  font-size: 20px;
+  font-weight: 600;
+}
+.todo-main .text-mix .text-section .todo-text-input {
+  padding: 3px 8px;
+  margin: 0;
+  height: 25px;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.todo-main .text-mix .to-btn {
+  display: flex;
+  position: relative;
+  height: 35px;
+  width: 120px;
+  background-color: #2d415b;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.todo-main .text-mix .to-btn:hover{
+  background-color: rgb(205, 135, 44);
+}
+.todo-main .text-mix .to-btn .btn {
+  text-decoration: none;
+  color: rgb(222, 215, 215);
+  font-weight: bold;
+}
+.todo-main .todo-text-input:focus {
+  outline: none;
+}
+
+/* Todo header Sec End */
+/* Todo List Start */
+.todo-list {
+  display: flex;
+  justify-content: center;
+  background-color: #1B2430;
+  height: 570px;
+}
+.todo-list .todo {
+  width: 550px;
+  height: 400px;
+  background-color: #6B728E;
+  fill-opacity: #da5151;
+  border: 1px solid #6B728E;
+  position: relative;
+  border-radius: 15px;
+  top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.todo-list .todo .del-btn {
+  background-color: #da5151;
+  border: 1px solid #876464;
+  border-radius: 5px;
+  width: 50px;
+  height: 25px;
+  color: white;
+  font-size: 15px;
+}
+.todo-list .todo .list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.todo-list .todo .list .li {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.todo-list .todo .list .li-li {
+  border-bottom: 1px solid black;
+  width: 430px;
+  height: 22px;
+  border-radius: 5%;
+  padding-left: 3px;
+  color: #D6D5A8;
+}
+
+/* Todo List End*//*# sourceMappingURL=style.css.map */
